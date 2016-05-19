@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  font-family: "Lato", sans-serif !important;
+}
+
+
+.page-header {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../images/headerbg.jpg");
+  background-size: 100%;
+  background-position: top;
+}
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+  text-align: center;
+}
+#header {
+  padding: 150px 0 150px 0;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  color: #fff;
+  background-color: transparent;
+}
+
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 17px;
+}
+.project-name {
+  font-size: 50px;
+}
+
+
+.main-content {
+  background-image: url("../images/bodybg.png");
+  background-size: 100%;
+  width: 100%;
+  max-width: none;
+  height: 400px;
+  position: relative;
+  top: -30px;
+  margin-bottom: -30px;
+}
+
+.site-footer {
+  border-top: 0px;
+}
+
+
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .nav > li {
+    display: inline;
+  }
+  .nav > li > a {
+    display: inline-block;
+  }
+}
