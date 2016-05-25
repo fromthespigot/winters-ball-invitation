@@ -71,7 +71,7 @@ p > span {
   background-repeat: repeat;
   width: 100%;
   max-width: none;
-  height: 400px;
+  height: 250px;
   position: relative;
   z-index: 1;
   display: block;
